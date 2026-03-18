@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Our Creations</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #1a1a1a, #2c003e);
+    color:white;
+}
+
+/* Header */
+header{
+    text-align:center;
+    padding:25px;
+    background: rgba(0,0,0,0.8);
+    box-shadow:0 5px 15px rgba(0,0,0,0.5);
+}
+
+header h1{
+    font-size:40px;
+    letter-spacing:4px;
+    color:gold;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin:0 15px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+/* Section */
+#creations{
+    padding:60px 40px;
+    text-align:center;
+}
+
+#creations h2{
+    font-size:35px;
+    margin-bottom:20px;
+    color:#ffccff;
+}
+
+#creations p{
+    max-width:800px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:50px;
+    color:#f5f5f5;
+}
+
+/* Gallery */
+.gallery{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.gallery img{
+    width:300px;
+    height:400px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:0.5s;
+    box-shadow:0 10px 25px rgba(255,215,0,0.3);
+}
+
+.gallery img:hover{
+    transform:scale(1.08) rotate(2deg);
+    box-shadow:0 15px 35px rgba(255,215,0,0.6);
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    background:black;
+    color:gray;
+    margin-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>✨ Our Creations ✨</h1>
+<nav>
+<a href="home.html">Home</a>
+<a href="types.html">Types</a>
+<a href="interest.html">Learn / Visit</a>
+<a href="implementation.html">Design Process</a>
+<a href="creations.html">Our Creations</a>
+</nav>
+</header>
+
+<section id="creations">
+  <h2>From Idea to Reality</h2>
+  <p>
+  “Every stitch tells a story, every fabric holds a dream.” 🌟  
+  From the first sketch to the final stitch, our designs reflect creativity, care, and passion.  
+  Each creation blends colors, textures, and styles to bring imagination to life.  
+  Explore our work and get inspired by the art of fashion transformation. 👗🧵💫
+  </p>
+
+  <div class="gallery">
+    <img src="https://images.stockcake.com/public/d/4/4/d445b30b-6a24-4ddb-8c0a-c5ab95e915d9_large/elegant-dress-design-stockcake.jpg" alt="Elegant Dress">
+    <img src="https://i.pinimg.com/originals/78/c7/4e/78c74e3e35c08a71e649bc2b7823e6fd.jpg" alt="Fashion Design">
+    <img src="https://media.craiyon.com/2025-08-19/LwcE6i62S1mPLyXtr5kXkQ.webp" alt="Creative Design">
+  </div>
+</section>
+
+<footer>
+© 2026 Fashion Design World | Designed with Elegance 💎
+</footer>
+
+</body>
+</html>
